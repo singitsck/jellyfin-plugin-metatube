@@ -25,7 +25,7 @@ Jellyfin 12 使用 .NET 10，旧版 MetaTube（ABI 10.x）无法加载。本仓�
 
 1. 仪表盘 → 插件 → 目录 → 齿轮 → **添加仓库**
 2. 仓库 URL 使用本仓库根目录的 `manifest.json` 的 raw 地址，例如：  
-   `https://raw.githubusercontent.com/<你的用户名>/jellyfin-plugin-metatube/main/manifest.json`
+   `https://raw.githubusercontent.com/singitsck/jellyfin-plugin-metatube/main/manifest.json`
 3. 在目录中安装 **MetaTube**（应显示 ABI 12）→ 重启 Jellyfin
 
 > 仓库建好并把 `manifest.json` 里的 `sourceUrl` / `imageUrl` 换成真实地址后，上面的 URL 才能用。见 [`PUBLISH.md`](PUBLISH.md)。

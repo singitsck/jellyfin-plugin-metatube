@@ -47,4 +47,4 @@ Raw URL：
 
 ## 本地暂存位置
 
-本机（助手工作区）：`/workspace/jellyfin-plugin-metatube/`
+本机（助手工作区）：`/workspace/jellyfin-plugin-metatube-jf12/`
