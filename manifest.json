@@ -6,13 +6,13 @@
     "overview": "MetaTube for Jellyfin 12 (unofficial)",
     "owner": "singitsck",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/PLACEHOLDER_OWNER/jellyfin-plugin-metatube-jf12/main/Jellyfin.Plugin.MetaTube/thumb.png",
+    "imageUrl": "https://raw.githubusercontent.com/singitsck/jellyfin-plugin-metatube/main/Jellyfin.Plugin.MetaTube/thumb.png",
     "versions": [
       {
         "checksum": "f9175ff00e0f1accb372a27baa4459f7",
         "changelog": "Unofficial JF12 build. targetAbi 12.0.0.0. Smoke-tested on Jellyfin 12.2.0.",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/PLACEHOLDER_OWNER/jellyfin-plugin-metatube-jf12/releases/download/v2026.1019.1.0/Jellyfin.MetaTube@v2026.1019.1.0.zip",
+        "sourceUrl": "https://github.com/singitsck/jellyfin-plugin-metatube/releases/download/v2026.1019.1.0/Jellyfin.MetaTube@v2026.1019.1.0.zip",
         "timestamp": "2026-10-19T11:02:00Z",
         "version": "2026.1019.1.0"
       }

@@ -7,7 +7,7 @@
 建议：
 
 - Owner：`singitsck`
-- 名称：`jellyfin-plugin-metatube-jf12`
+- 名称：`jellyfin-plugin-metatube`
 - 公开（Public）
 - **不要**勾选 README / LICENSE / .gitignore（本地已有）
 
@@ -15,7 +15,7 @@
 
 编辑根目录 `manifest.json`，把所有：
 
-`https://github.com/PLACEHOLDER_OWNER/jellyfin-plugin-metatube-jf12/...`
+`https://github.com/singitsck/jellyfin-plugin-metatube/...`
 
 改成真实用户名（例如 `singitsck`）。
 
@@ -24,12 +24,12 @@
 ## 3. 首次推送（示例）
 
 ```bash
-cd jellyfin-plugin-metatube-jf12
+cd jellyfin-plugin-metatube
 git init
 git add .
 git commit -m "Initial: MetaTube JF12 build 2026.1019.1.0"
 git branch -M main
-git remote add origin git@github.com:singitsck/jellyfin-plugin-metatube-jf12.git
+git remote add origin git@github.com:singitsck/jellyfin-plugin-metatube.git
 git push -u origin main
 ```
 
@@ -43,8 +43,8 @@ git push -u origin main
 
 Raw URL：
 
-`https://raw.githubusercontent.com/singitsck/jellyfin-plugin-metatube-jf12/main/manifest.json`
+`https://raw.githubusercontent.com/singitsck/jellyfin-plugin-metatube/main/manifest.json`
 
 ## 本地暂存位置
 
-本机（助手工作区）：`/workspace/jellyfin-plugin-metatube-jf12/`
+本机（助手工作区）：`/workspace/jellyfin-plugin-metatube/`

@@ -30,7 +30,7 @@ def generate(filename, version, csproj) -> dict:
         'checksum': md5sum(filename),
         'changelog': 'Auto Released by Actions',
         'targetAbi': f'{get_jellyfin_version(csproj)}.0',
-        'sourceUrl': 'https://github.com/PLACEHOLDER_OWNER/jellyfin-plugin-metatube-jf12/releases/download/'
+        'sourceUrl': 'https://github.com/singitsck/jellyfin-plugin-metatube/releases/download/'
                      f'v{version}/Jellyfin.MetaTube@v{version}.zip',
         'timestamp': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'version': version
@@ -47,7 +47,7 @@ def main() -> None:
                           "../Jellyfin.Plugin.MetaTube/Jellyfin.Plugin.MetaTube.csproj")
 
     with urlopen(
-            'https://raw.githubusercontent.com/PLACEHOLDER_OWNER/jellyfin-plugin-metatube-jf12/main/manifest.json') as f:
+            'https://raw.githubusercontent.com/singitsck/jellyfin-plugin-metatube/main/manifest.json') as f:
         manifest = json.load(f)
 
     manifest[0]['versions'].insert(0, generate(filename, version, csproj))
