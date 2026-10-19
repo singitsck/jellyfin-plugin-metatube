@@ -1,0 +1,8 @@
+[11:03:07.927] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly MetaTube, Version=2026.1019.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MetaTube/MetaTube.dll
+[11:03:09.362] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: MetaTube 2026.1019.1.0
+[11:03:09.363] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: TMDb 12.2.0.0
+[11:03:09.363] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: Studio Images 12.2.0.0
+[11:03:09.363] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: OMDb 12.2.0.0
+[11:03:09.372] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: MusicBrainz 12.2.0.0
+[11:03:09.372] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: ListenBrainz Similarity Provider 12.2.0.0
+[11:03:09.372] [INF] [6] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: AudioDB 12.2.0.0

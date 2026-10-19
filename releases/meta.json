@@ -1,0 +1,12 @@
+{
+  "category": "Metadata",
+  "changelog": "Unofficial build for Jellyfin 12.x (targetAbi 12.0.0.0). Tested on Jellyfin 12.2.0.",
+  "description": "MetaTube Plugin for Jellyfin/Emby (JF12 community build)",
+  "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
+  "name": "MetaTube",
+  "overview": "MetaTube for Jellyfin 12",
+  "owner": "singitsck",
+  "targetAbi": "12.0.0.0",
+  "timestamp": "2026-10-19T11:00:00.0000000Z",
+  "version": "2026.1019.1.0"
+}
